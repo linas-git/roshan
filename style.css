@@ -1,0 +1,35 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.top-nav {
+    width: 100vw;
+    height: 55px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    background-color: blue;
+    
+
+}
+.logos {
+    display: flex;
+    width:100vw;
+    height:55px;
+}
+.searchbar{
+    height: 22px;
+    width: 22px;
+    padding-left: 50px;
+
+
+}
+.card{
+    height: 22px;
+    width:100px;
+    padding-left: 22px;
+}
+
+
+
