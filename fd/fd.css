@@ -1,0 +1,31 @@
+.fd {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    height: 30%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+heading {
+    align-self: center;
+    text-align: center;
+    padding-left: 50%;
+}
+
+h1 {
+    background-color: blanchedalmond;
+    margin-top: 150%;
+}
+
+.box . photo {
+    height: fit-content;
+    width: fit-content;
+}

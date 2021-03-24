@@ -1,0 +1,278 @@
+body {
+    border: 0px;
+    margin: 0px;
+}
+
+.straightline {
+    height: 1vh;
+    width: 100vw;
+    background-color: red;
+    margin: 5px;
+}
+
+.navi ul img {
+    height: 40px;
+    width: 40px;
+}
+
+.navi {
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100vw;
+}
+
+.navi .upperlist {
+    padding: 10px;
+    margin: -111px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.navi .upperlist .search {
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 86px;
+}
+
+.navi .upperlist .list {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.navi .upperlist .list :hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.firstlist {
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: 16px;
+    left: 50px;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.firstlist .firstheading {
+    margin: 10px;
+}
+
+.firstbtn {
+    border-radius: 20px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color: red;
+    margin: 10px;
+}
+
+.search {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 20px;
+}
+
+#product {
+    color: red;
+    text-align: center;
+    font-family: sans-serif;
+    /* position: relative; */
+    /* top: 150px; */
+}
+
+.firstbtn :hover {
+    cursor: pointer;
+    background-color: salmon;
+}
+
+.gallery {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 20px;
+    padding: 50px;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+
+#secondlast {
+    background-color: grey;
+    height: 40vh;
+    /* width: 100vw; */
+    /* position: absolute; */
+}
+
+#secondlast img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    right: 616px;
+}
+
+#secondlast h3 {
+    margin: 50px;
+    position: relative;
+    right: 551px;
+    top: -62px;
+    color: white;
+}
+
+#secondlast p {
+    position: relative;
+    right: 527px;
+    top: -81px;
+    color: white;
+}
+
+#secondlast #links {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -190px;
+    right: 250px;
+    padding: 40px;
+    color: white;
+}
+
+#secondlast #links a {
+    font-size: 1.5rem;
+    padding: 3px;
+}
+
+#secondlast #pic img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -344px;
+    left: 160px;
+}
+
+#secondlast #pic h1 {
+    position: relative;
+    top: -329px;
+    left: 104px;
+    color: white;
+}
+
+#last {
+    height: 10vh;
+    /* width: 100%; */
+    background-color: black;
+    padding: 20px;
+    /* position: relative; */
+}
+
+#last .para {
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    /* width: 100%; */
+}
+
+.mainGrid {
+    height: 60vh;
+    padding: 0px 100px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid-3-2 {
+    width: 45%;
+}
+
+.grid-1-2 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-1-2 img {
+    height: 48%;
+    width: 100%;
+}
+
+.grid-2-2 {
+    width: 30%;
+}
+
+.grid-2-2 img {
+    height: 100%;
+}
+
+.secondrow {
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+    object-fit: cover;
+}
+
+.secondrow>div {
+    width: 30%;
+}
+
+.secondrow img {
+    /* justify-content: space-between; */
+    /* height: 7%; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.thirdrow {
+    height: 40vh;
+    object-fit: cover;
+    display: flex;
+    /* padding: 0px 0px; */
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.thirdrow img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.thirdrow>div {
+    width: 48%;
+}
+
+.forthrow {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+    padding: 0px 100px;
+}
+
+.forthrow>div {
+    width: 15%;
+}
+
+.forthrow img {
+    width: 100%;
+    object-fit: contain;
+}
